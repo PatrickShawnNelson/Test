@@ -1,0 +1,57 @@
+h1 {
+    position: absolute;
+    left: 725px;
+    top: -5px;
+}
+
+html {
+    background-color: rgb(161, 225, 230);
+}
+
+.mainTime {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+    justify-content: center;
+  }
+
+.mainTime > span {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    justify-content: center;
+  }
+
+
+.count {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    position: absolute;
+    left: 675px;
+    top: 200px;
+  }
+
+  .countS {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    position: absolute;
+    left: 800px;
+    top: 200px;
+  }
+
+  .lap {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    position: absolute;
+    left: 740px;
+    top: 262px;
+  }
